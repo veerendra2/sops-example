@@ -1,0 +1,11 @@
+---
+creation_rules:
+  - encrypted_regex: "^(data|stringData)$"
+    path_regex: .*/.*prod.*/.*
+    # azure_keyvault:
+    pgp: >-
+      9631D20C0D05B33CA14E87808D3E1B4F46FF0875
+  - encrypted_regex: "^(data|stringData)$"
+    # azure_keyvault:
+    pgp: >-
+      AAD27224CF54D824D353DDB35E69C765F65D7A62
